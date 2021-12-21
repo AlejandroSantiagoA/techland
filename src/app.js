@@ -1,9 +1,9 @@
 const express = require("express");
 const app = express();
 const path = require("path");
-const router= require(path.join(__dirname,'./routes/mainRoutes'));
-const routerProduct= require(path.join(__dirname,'./routes/productRoutes'));
-const routerUser = require(path.join(__dirname,'./routes/userRoutes'));
+const router= require('./routes/mainRoutes');
+const routerProduct= require('./routes/productRoutes');
+const routerUser = require('./routes/userRoutes');
 const publicPath = path.resolve(__dirname, "../public");
 const methodOverride =  require('method-override'); // Pasar poder usar los métodos PUT y DELETE
 const session = require("express-session"); //Para usar sesiones
