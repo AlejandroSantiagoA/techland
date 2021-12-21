@@ -14,31 +14,19 @@
 
 ## About us:
 
->>**-Erick Alan Luna García**: Informatics Engineer. Student of the <samp>"Instituto Politécnico Nacional"</samp>.
->>> 25 years. I `<3` programming. 
+>>**-Sanchez Alarcon Alejandro**: Informatics Engineer. Student of the <samp>"Instituto Politécnico Nacional"</samp>.
+>>> 21 years. I `<3`. 
 
->>**-Daniel Romero Durón**: 
->>> Studying automotive systems engineering career in UPIITA of the <samp>"Instituto Politécnico Nacional"</samp> in automotive systems control specialty with emphasis on comfort & safety. 
-I love vehicles because represent a technological innovation that changes all time and always inspires me to be constantly learning. 22 years old. I love travelling, meeting people and live new experiences.  
-
->>**-Israel Pérez Morales**: 
->>> Just started in the world of programming. I studied classical letters, I love to read, and my favorite sport is swimming. 
 
 ---
 ## Sobre nosotros: 
->>**-Erick Alan Luna García**: 
->>>Ingeniero en Informática. Estudiante del Instituto Politécnico Nacional. 25 años. Me encanta programar `<3`.
-
->>**-Daniel Romero Durón**: 
->>> Estudiando la carrera de Ingeniería en Sistemas Automotrices en UPIITA del <samp> "Instituto Politécnico Nacional" </samp>en la especialidad de control en sistemas automotrices con énfasis en seguridad y confort.
-Me encantan los vehículos porque representan una innovación tecnológica que cambia todo el tiempo y me inspira a estar siempre en un aprendizaje constante. 22 años. Me encanta viajar, conocer personas y vivir nuevas experiencias.
-
->>**-Israel Pérez Morales**:
->>>Recién iniciado en el mundo de la programación. Estudié Letras clásicas, amo leer, y mi deporte favorito es la natación. 
+>>**-Sanchez Alarcon Alejandro**: 
+>>>Licenciado en Informática. Estudiante del Instituto Politécnico Nacional. 21 años. `<3`.
+ 
 
 ---
 ---
-## Sites similar to ours:
+## Sites similar:
 1. [HP store](https://store.hp.com/mx-es/default/): The design of your site is simple and clear. Its menu contains the main categories of the products it offers: laptops,
 desktops, printers, ink and toner, accessories. This menu, which appears in the header, reappears in a more graphic way, that is, with cards with images, when scrolling down the page, which is quite useful, because it helps to think about what type of product you want and where it is easiest to find it.
 
@@ -53,7 +41,7 @@ Your main menu appears clearly in the header. The great experience is when you s
 Huawei has an online store that has served as a guide for our project, thanks to the fact that its site is intuitive, simple and stricking.
 
 ---
-## Sitios similares al nuestro:
+## Sitios similares:
 
 1. [Tienda de HP](https://store.hp.com/mx-es/default/): Su diseño es simple y claro. Su menú contiene las principales categorías de los productos que ofrece: laptops,
 desktops, impresoras, tinta y tóner, accesorios. Este menú, que aparece en el header, vuelve a aparecer de forma más gráfica, es decir, con tarjetas con imágenes, al hacer scroll down a la página, lo que resulta bastante útil, porque ayuda a pensar qué tipo de producto se quiere y en dónde es más fácil encontrarlo.
