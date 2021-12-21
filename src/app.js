@@ -28,7 +28,7 @@ app.use(userLoggedMiddleware);
 app.set('view engine', 'ejs');
 app.set('views', path.join(__dirname,'./views/'));
 
-app.listen(3000, () => {
+app.listen( process.env.PORT || 3000, () => {
   console.log("Server running at port 3000");
 });
 app.use('/', router);
