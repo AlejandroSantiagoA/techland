@@ -210,5 +210,13 @@
   "email": "eluna1802@alumno.ipn.mx",
   "nationality": "México",
   "profileImage": "/profileImages/eluna1802@alumno.ipn.mxprofile-image.jpg"
+ },
+ {
+  "id": 26,
+  "user": "Alejandro Sanchez ",
+  "password": "$2b$10$TErO0yRly/xUG9j7dlY..uT.IZd2CFEXzN4uhWU0W6TESOgADSdkO",
+  "email": "alejandrosa548@gmail.com",
+  "nationality": "México",
+  "profileImage": "/profileImages/alejandrosa548@gmail.comprofile-image.jpg"
  }
 ]
