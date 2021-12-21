@@ -4,7 +4,9 @@
     padding: 0;
     text-decoration: none !important;
 }
-
+.car-input{
+    display: none;
+}
 /* colors
 
 #000000

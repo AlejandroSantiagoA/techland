@@ -1,6 +1,7 @@
 const fs = require("fs");
 const path = require("path");
 const productsFilePath = path.join(__dirname, "../data/products.json");
+const carFilePath = path.join(__dirname, "../data/carShop.json");
 const reviews = require("../../public/js/reviews");
 
 const productsController = {
@@ -77,6 +78,29 @@ const productsController = {
     products= products.filter(product => product.id != id);
     fs.writeFileSync(productsFilePath, JSON.stringify(products, null, " "));
     res.redirect('/home');
+  },
+  addToCar:(req, res)=>{
+    let idProduct = req.body.id;
+    let products = productsController.leerData();
+    let newProduct = products.find((item) => item.id == idProduct);
+    let id_user = req.session.userLogged.id;
+    const carShop = JSON.parse(fs.readFileSync(carFilePath, "utf-8"));
+    let newItemCar = {
+      id_user: id_user,
+      product: newProduct
+    }
+    carShop.push(newItemCar);
+    let newProductsCar = JSON.stringify(carShop, null, " ");
+    fs.writeFileSync(carFilePath, newProductsCar, "utf-8");
+    const newCarShop = JSON.parse(fs.readFileSync(carFilePath, "utf-8"));
+    let responseCar = [];
+    newCarShop.forEach((item)=> {
+        if(item.id_user == id_user){
+          responseCar.push(item)
+        }});
+    console.log(responseCar)
+    console.log(responseCar.length);
+    res.render('products/productCart', {responseCar});
   }
 };
 

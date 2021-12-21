@@ -218,5 +218,13 @@
   "email": "alejandrosa548@gmail.com",
   "nationality": "México",
   "profileImage": "/profileImages/alejandrosa548@gmail.comprofile-image.jpg"
+ },
+ {
+  "id": 27,
+  "user": "Erick Alan Garcia",
+  "password": "$2b$10$077ZVl9bq4bxRFOv2s1qiu.6L2BL3w1uXcv20.PnquQo42BexqwLO",
+  "email": "yedermoo3@gmail.com",
+  "nationality": "México",
+  "profileImage": "/profileImages/yedermoo3@gmail.comprofile-image.jpg"
  }
 ]

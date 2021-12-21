@@ -55,12 +55,15 @@
                         <label for="price-number">Precio:</label>
                         <p id="price-number">$ <%=item.price%> MX</p>
                     </div>
-      
+
                     <div>
-                        <button class="cta-add-to-car">
-                          <i class="fas fa-cart-plus"></i>
-                            Agregar al carrito
-                        </button>
+                        <form action="../addCar" method="post">
+                            <input name="id" class="car-input" value="<%=item.id%>">
+                            <button class="cta-add-to-car">
+                                <i class="fas fa-cart-plus"></i>
+                                Agregar al carrito
+                            </button>
+                        </form>
                     </div>
 
                     <a href="/products/edit/<%= item.id %>">

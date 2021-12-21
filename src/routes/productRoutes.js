@@ -1,8 +1,10 @@
 const express = require('express');
 const router = express.Router();
 const productsController = require('../controllers/productsController');
+const authMiddleware = require("../middleware/authMiddleware");
 const path = require('path');
 const multer = require('multer');
+
 
 
 const storage = multer.diskStorage({
@@ -22,6 +24,7 @@ const upload = multer({storage:storage});
 
 router.get('/product', productsController.productEdit);
 router.get('/productCreate', productsController.productCreate);
+router.post('/addCar', authMiddleware,productsController.addToCar);
 
 
 /*** GET ALL PRODUCTS ***/ 

@@ -2,10 +2,7 @@
 const fs = require('fs');
 const path = require('path');
 const productsFilePath = path.join(__dirname, '../data/products.json');
-
-
-const listOfProducts = require("../../public/js/listOfProducts");
-const reviews = require("../../public/js/reviews");
+const carFilePath = path.join(__dirname, "../data/carShop.json");
 const mainController = {
     leerData: () => {
         const products = JSON.parse(fs.readFileSync(productsFilePath, 'utf-8'));
@@ -23,8 +20,15 @@ const mainController = {
     register: (req, res)=>{
         res.render('register');
     },
-    productCart: (req, res)=>{               
-        res.render(path.join(__dirname, "../views/products/productCart"), {listOfProducts: listOfProducts });
+    productCart: (req, res)=>{
+        let id_user = req.session.userLogged.id;
+        const newCarShop = JSON.parse(fs.readFileSync(carFilePath, "utf-8"));
+        let responseCar = [];
+        newCarShop.forEach((item)=> {
+            if(item.id_user == id_user){
+                responseCar.push(item)
+            }});
+        res.render(path.join(__dirname, "../views/products/productCart"), {responseCar});
     },
 }
 

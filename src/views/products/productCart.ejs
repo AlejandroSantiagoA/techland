@@ -47,63 +47,14 @@
 
             <section class="list-of-p-and-pay-one">
                 <section class="list-of-items-to-pay">
+
+                    <%responseCar.forEach(item=>{%>
                     <div class="product-card">
-                        <img src="/images/gabriel-beaudry-5X5dCf4Pp44-unsplash.jpg" alt="product-image" class="product-img">                       
+                        <img src="<%=item.product.img%>" alt="product-image" class="product-img">
                         
                         <div class="name-buttoms-product">
                             <p class="product-name">
-                                Nombre del producto
-                            </p>
-
-                            <div class="buttoms-and-price">
-                                <div class="buttons-for-#-items">
-                                    <div class="number-of-items">
-                                        <button>
-                                            <i class="fas fa-minus"></i>
-                                        </button>
-                                        <p>
-                                            1
-                                        </p>
-                                        <button>
-                                            <i class="fas fa-plus"></i>
-                                        </button>
-                                    </div>
-                        
-                                    <div class="trash">
-                                        <button>
-                                            <i class="fas fa-trash"></i>
-                                        </button>
-                                    </div>                                                        
-                                </div>
-
-                                <div class="product-price-mobile"> 
-                                    <p class="name-price">
-                                        Precio:
-                                    </p>                                                                                                  
-                                    <p class="number-price">
-                                        $ 000.00
-                                    </p>
-                                </div>
-                            </div>
-    
-                                                       
-                        </div>
-
-                        <div class="product-price-desktop">                            
-                            <p class="number-price">
-                                $ 000.00
-                            </p>
-                        </div>
-                        
-
-                    </div> 
-                    
-                    <div class="product-card">
-                        <img src="/images/gabriel-beaudry-5X5dCf4Pp44-unsplash.jpg" alt="product-image" class="product-img">                       
-                        
-                        <div class="name-buttoms-product">
-                            <p class="product-name">
-                                Nombre del producto
+                                <%=item.product.name%>
                             </p>
 
                             <div class="buttoms-and-price">
@@ -148,57 +99,8 @@
                         
 
                     </div>
-                    
-                    <div class="product-card">
-                        <img src="/images/gabriel-beaudry-5X5dCf4Pp44-unsplash.jpg" alt="product-image" class="product-img">                       
-                        
-                        <div class="name-buttoms-product">
-                            <p class="product-name">
-                                Nombre del producto
-                            </p>
+                    <%});%>
 
-                            <div class="buttoms-and-price">
-                                <div class="buttons-for-#-items">
-                                    <div class="number-of-items">
-                                        <button>
-                                            <i class="fas fa-minus"></i>
-                                        </button>
-                                        <p>
-                                            1
-                                        </p>
-                                        <button>
-                                            <i class="fas fa-plus"></i>
-                                        </button>
-                                    </div>
-                        
-                                    <div class="trash">
-                                        <button>
-                                            <i class="fas fa-trash"></i>
-                                        </button>
-                                    </div>                                                        
-                                </div>
-
-                                <div class="product-price-mobile"> 
-                                    <p class="name-price">
-                                        Precio:
-                                    </p>                                                                                                  
-                                    <p class="number-price">
-                                        $ 000.00
-                                    </p>
-                                </div>
-                            </div>
-    
-                                                       
-                        </div>
-
-                        <div class="product-price-desktop">                            
-                            <p class="number-price">
-                                $ 000.00
-                            </p>
-                        </div>
-                        
-
-                    </div>
     
                 </section>
     
